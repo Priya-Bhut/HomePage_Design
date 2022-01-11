@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="mystyle.css" />
+  </head>
+  <body class="body">
+    <header>
+      <div class="menu">
+      <img src="logo.png" height="100px" width="100px" />
+        <ul>
+          <li><a href="#"> Restaurant</a></li>
+          <li><a href="#"> Bakery</a></li>
+          <li><a href="#"> Cakes</a></li>
+          <li><a href="#"> Galary</a></li>
+          <li><a href="#"> News</a></li>
+          <li><a href="#"> info</a></li>
+        </ul>
+      </div>
+    </header>
+<div class ="content">
+  <div class="slider">
+    <a class="prev"> &#10094;</a>
+    <a class="next"> &#10095;</a>
+  </div>
+ 
+  
+  <div class="bottomleft">
+    <div>
+      <p id="main">
+        Josef's Vienna Bakery Cafe & Restaurant is a Reno Original!
+      </p>
+      <p class="details">
+        We are open for Dine-in and Take-Out,backery and cafe! Opened in 1980
+        by Viennese Pastry Chef,Josef Psa,this once small space has grown nad
+        grown to become the area's permier bakery with it's own full-service
+        Restaurant,Cafe Vienna.
+      </p>
+    </div>
+    <div class="left">
+      <h3>Soup Schedule</h3>
+      <p> Week of January 15th 2020</p>
+      <div class="day">Monday</div>
+      <p> Cream of Mashroom </p>
+      <div class="day">Tuesday</div>
+      <p> Mulligatawny</p>
+      <div class="day">Wednesday</div>
+      <p> Leek Soup with Feta </p>
+      <div class="day">Thursday</div>
+      <p> Carrot Soup W/ Croutons</p>
+      <div class="day">Friday</div>
+      <p>Shrimp & Tomato</p>
+    </div>
+    <div class="item">
+      <p id="p">Today's Deal offers with Membership</p>
+      <hr />
+      <img src="4.jpg" alt="" />
+      <img src="7.jpg" alt="" />
+      <img src="1.jpg" alt="" />
+      <img src="3.jpg" alt="" />
+  
+      <p
+        style="
+          color: red;
+          font-weight: bolder;
+          margin-bottom:20px;
+          font-size: small;"
+      >
+        Click The item to check the price
+      </p>
+      
+    </div>
+    <div class="bill_details">
+      <p style="text-align: center; color: white; font-weight: bolder">
+        Check the details of selected item
+      </p>
+      <hr color="black" />
+      <label style="color: white">Price </label>
+      <input type="text" id="price" name="price"  value="700"/>
+  
+      <lable style="color: white">Quantity</lable>
+      <input type="button" id="incr" value="+" />
+      <input type="text" id="quantity" name="quantity" value="2" />
+      <input type="button" id="incr" value="-" />
+  
+      <p style="font-size: 25px; font-weight: bolder; color: orange; text-align: center;">Bill Details</p>
+      <table style="width: 50%">
+        <tr>
+          <td>Item Total</td>
+          <td>
+            <input type="text" id="total" value="1400" disabled />
+          </td>
+        </tr>
+        <tr>
+          <td>Delivery Partner Fee</td>
+          <td>
+            <input type="text" id="part_fee" value="50" disabled />
+          </td>
+        </tr>
+        <tr>
+          <td>To pay</td>
+          <td>
+            <input type="text" id="pay" value="1450" disabled />
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  
+</div>
+    <footer>
+      &copy; All Right reserved by CMPICA(Student Name:Student Id)
+    </footer>
+  </body>
+</html>
